@@ -4,7 +4,6 @@ struct Basis{
     vector<ll> bs, t;
     int flag;
 
-
     Basis() : bs(bits + 1), t(bits + 1), flag(0) {}
 
     void insert(ll x){
