@@ -13,4 +13,5 @@ Digit DP
 Hungarian
 Polynomial
 2-SAT
+Tree Decomposition
 ...
