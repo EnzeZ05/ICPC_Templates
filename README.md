@@ -1,10 +1,9 @@
 # Cartesian Tree
+# 2-SAT
 # Link-Cut Tree
 # 01 Trie
-# SA
 # Digit DP
 # Polynomial
-# 2-SAT
 # Tree Decomposition
 # Rotating Calipers
 # Sweeping Line
