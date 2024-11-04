@@ -28,13 +28,13 @@ struct BCC{
 
             if(dfn[j] == 0){
                 tarjan(j, u);
-                low[u] = min(low[u], low[j]);
+                low[u] = chmin(low[u], low[j]);
                 if(dfn[u] < low[j]){
                     bridge[i] = bridge[i ^ 1] = true;  
                 }
             }
             else if(i != (from ^ 1)){
-                low[u] = min(low[u], dfn[j]);
+                low[u] = chmin(low[u], dfn[j]);
             }
         }
         if(dfn[u] == low[u]){
