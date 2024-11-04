@@ -17,14 +17,14 @@ struct Inversion {
 				if ((s += d) >= mod) s -= mod;
 				if (s <= T) {
 					if (!f[a]) f[a] = u, p[a] = s;
-                    continue;
+			        continue;
 				} 
-                if (s >= mod - T) {
-                    if (!f[a]) f[a] = u, p[a] = s - mod;
-                    continue;
+			    if (s >= mod - T) {
+			        if (!f[a]) f[a] = u, p[a] = s - mod;
+			        continue;
 				} 
-                int t = (mod - T - s - 1) / d;
-                s += t * d, a += t;
+			    int t = (mod - T - s - 1) / d;
+			    s += t * d, a += t;
 			}
 		}
 
