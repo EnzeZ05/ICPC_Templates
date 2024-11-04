@@ -11,18 +11,18 @@ struct SCC{
         adj[u].push_back(v); 
     }
 
-    void Tarjan(int u){
+    void tarjan(int u){
         dfn[u] = low[u] = ++timestamp;
         stk[++top] = u;
         visited[u] = true;
 
         for(int j : adj[u]){
             if(dfn[j] == 0){
-                Tarjan(j);
-                low[u] = min(low[u], low[j]);
+                tarjan(j);
+                low[u] = chmin(low[u], low[j]);
             } 
             else if (visited[j]){
-                low[u] = min(low[u], dfn[j]);
+                low[u] = chmin(low[u], dfn[j]);
             }
         }
 
