@@ -1,17 +1,17 @@
 # icpc_templates
 
 Todo:
-Cartesian Tree
-FHQ Treap
-Link-Cut Tree
-01 Trie
-SA
-SAM
-President Tree
-Persistent Segment Tree
-Digit DP
-Hungarian
-Polynomial
-2-SAT
-Tree Decomposition
+# Cartesian Tree
+# Link-Cut Tree
+# 01 Trie
+# SA
+# Digit DP
+# Polynomial
+# 2-SAT
+# Tree Decomposition
+# Rotating Calipers
+# Sweeping Line
+# Lichao Tree
+# K-D Tree
+# Geometry Template Patch: Pick's theorem
 ...
