@@ -1,6 +1,6 @@
 # icpc_templates
 
-Todo:
+# Todo:
 # Cartesian Tree
 # Link-Cut Tree
 # 01 Trie
