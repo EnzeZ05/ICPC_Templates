@@ -4,5 +4,4 @@
 # Digit DP
 # Polynomial
 # Sweeping Line
-# K-D Tree
 ...
