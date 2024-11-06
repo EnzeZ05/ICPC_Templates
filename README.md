@@ -3,7 +3,6 @@
 # Link-Cut Tree
 # Digit DP
 # Polynomial
-# Tree Decomposition
 # Sweeping Line
 # K-D Tree
 ...
